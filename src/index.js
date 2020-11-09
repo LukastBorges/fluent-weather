@@ -1,12 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
 import './index.scss'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <main>
+        <Switch>
+          <Route path="/" exact component={App} />
+          <Route render={() => <h1>404: page not found</h1>} />
+        </Switch>
+      </main>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 )
