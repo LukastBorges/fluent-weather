@@ -1,8 +1,8 @@
 import { useReducer } from 'react'
 import { Icon, initializeIcons } from '@fluentui/react/lib'
 
+import SearchWeather from './containers/SearchWeather'
 import GlobalMapChart from './components/GlobalMapChart'
-import SearchWeather from './components/SearchWeather'
 import WeatherPanel from './components/WeatherPanel'
 import { commonReducer } from './reducers/commonReducer'
 
