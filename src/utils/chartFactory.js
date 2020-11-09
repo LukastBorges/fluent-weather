@@ -30,6 +30,7 @@ export const createMapSeries = (chart, geoData) => {
   polygons.strokeWidth = 0.75
   polygons.fill = am4core.color('#eee')
   polygons.propertyFields.fill = 'color'
+  polygons.cursorOverStyle = am4core.MouseCursorStyle.pointer
 
   hoverState.properties.fill = am4core.color(SharedColors.gray10)
 
