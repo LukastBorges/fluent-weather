@@ -1,10 +1,12 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # fluent-weather
 
-A simple weather app made with React and using the OpenWeather API.
+A simple weather app made with React, FluentUI elements and the OpenWeather API.
+
+THe business idea of the app is to be able to add a marker anywhere in the world map, search for nearby cities and getting current weather details for those.
+
+## Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
